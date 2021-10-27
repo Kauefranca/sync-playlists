@@ -1,0 +1,20 @@
+{
+  "name": "sync-playlists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kauefranca/sync-playlists.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kauefranca/sync-playlists/issues"
+  },
+  "homepage": "https://github.com/Kauefranca/sync-playlists#readme"
+}

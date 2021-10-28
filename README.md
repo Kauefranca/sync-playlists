@@ -4,7 +4,7 @@ A simple project for sync playlists from multiple plataforms.
 
 ## Todo
 - [ ] Youtube
-    - [ ] Get every video from given playlist.
+    - [x] Get every video from given playlist.
     - [ ] Verify if video type is music, if not ignore.
     - [ ] Save all music video title in a array.
 - [ ] Spotify

@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Kauefranca/sync-playlists/issues"
   },
-  "homepage": "https://github.com/Kauefranca/sync-playlists#readme"
+  "homepage": "https://github.com/Kauefranca/sync-playlists#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "node-fetch": "^2.6.5"
+  }
 }

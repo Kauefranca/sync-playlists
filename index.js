@@ -10,7 +10,7 @@ const { getUserConsent } = require('./lib/getUserConsent');
     if (!userInfo) return console.log('An error ocurred during the Authentication');
 
     var videoList = await youtube.getVideoList(readLine.question('Insert the Youtube playlist URL: '));
-    var playlistId = await spotify.createPlaylist(token.access_token, userInfo.display_name, { name: readLine.question('Insert a name for the Spotify playlist: '), description: 'Playlist auto converted from Youtube using Kauefranca/sync-playlists' })
+    var playlistId = await spotify.createPlaylist(token.access_token, userInfo.id, { name: readLine.question('Insert a name for the Spotify playlist: '), description: 'Playlist auto converted from Youtube using Kauefranca/sync-playlists' })
     if (playlistId.error) return console.log(playlistId.error);
     console.log('Converting playlist, please wait...');
 
